@@ -1,0 +1,36 @@
+{
+  "executedAt": "2026-11-21T06:42:05.289Z",
+  "results": {
+    "QA1_72h_5000_sales": {
+      "salesQueued": 5000,
+      "salesConverged": 5000,
+      "duplicatesRejected": 1,
+      "durationMs": 1753.61,
+      "passed": true
+    },
+    "QA2_3branch_chaos_convergence": {
+      "branchesConverged": 3,
+      "northgateRecallPropagated": true,
+      "passed": true
+    },
+    "QA3_pos_latency": {
+      "barcodeLookupP95Ms": 0.02,
+      "fiveItemCheckoutP95Ms": 0.56,
+      "passed": true
+    },
+    "QA4_safety_compliance": {
+      "expiredSalesAllowed": 0,
+      "unrecordedRxSalesAllowed": 0,
+      "recalledSalesBlocked": true,
+      "passed": true
+    },
+    "QA5_800_sales_256kbps_resumable": {
+      "operationsSynced": 800,
+      "chunks": 4,
+      "payloadBytes": 501276,
+      "estimated256kbpsSeconds": 15.91,
+      "computeMs": 247.18,
+      "passed": true
+    }
+  }
+}

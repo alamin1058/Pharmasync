@@ -1,0 +1,6 @@
+{
+  "name": "PharmaSync",
+  "description": "Offline-First Multi-Branch Pharmacy Inventory & Point of Sale Management System with FEFO batch tracking, recall enforcement, prescription compliance, and bidirectional synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
